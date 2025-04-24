@@ -16,7 +16,7 @@ pipeline {
         stage('Test') {
             agent any
             steps {
-                sh 'npm test'
+                bat 'npm test'
             }
         }
     }
